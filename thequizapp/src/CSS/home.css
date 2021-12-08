@@ -1,0 +1,238 @@
+
+:root{
+    --hue-neutral:960;
+    --hue-wrong:0;
+    --hue-correct:145;  
+
+}
+#playnow{
+    color: rgb(104, 104, 187);
+    text-align: center;
+    font-size: 26pt;
+    background-color: rgb(132, 223, 214);
+    padding: 0;
+    margin: 0;
+    font-family:"DotGothic16" ;
+    height: 50px;
+}
+
+
+.home-cont{
+    background-color: yellow;
+    height:100vh;
+    width: 100vw;
+
+}
+
+.quiz-home-half{
+    height: 147px;
+   
+    background-image: url("../images/Screen Shot 2021-12-02 at 11.11.30 PM.jpg");
+    background-position: center;
+    background-position-x: 11px;
+    background-size: 425px;
+    background-repeat: repeat-x;
+    opacity: 100%;
+    padding: 0;
+    margin: 0;
+   
+}
+
+#quizword-home{
+    font-family: "DotGothic16";
+    font-size: 35pt;
+    text-align: center;
+    font-weight: 900;
+    color:whitesmoke;
+    -webkit-text-stroke:0.07vw rgb(157, 167, 20);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 280px;
+    position: relative;
+    top:40px
+   
+    
+   
+
+}
+
+.seperate-quizzes{
+    background-color: rgb(1, 1, 12);
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 40px;
+    align-items: center;
+    height: 1270px;
+    
+   
+
+}
+#quizbox1,#quizbox2,#quizbox3,#quizbox4,#quizbox5,#quizbox6, #quizbox7,#quizbox8, #quizbox9, #quizbox10, #quizbox11, #quizbox12{
+    border-radius: 200px;
+    height: 160px;
+    padding: 0;
+    margin-top: 10px;
+    font-family: 'Train On';
+    list-style: none;
+    color: aqua;
+    box-shadow: 0 0 10px 7px aquamarine
+    
+    
+    
+    
+
+   
+}
+#quizbox1{
+background-image: url("../images/code-quizapp.jpeg");
+background-repeat: repeat;
+background-size: 400px;
+opacity: 30;
+
+}
+#quizbox2{
+background-image: url("../images/kobeb.jpeg");
+background-size: 500px;
+background-position-x: 20px;
+
+
+}
+#quizbox3{
+    background-image: url("../images/tv-g5401e0024_640.jpg");
+    background-size:620px;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+ 
+}
+#quizbox4{
+    background-image: url("../images/cor1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 612px;
+    background-position-y: -90px;
+}
+#quizbox5{
+    background-image: url("../images/food-quizapp.jpeg");
+    background-position-y:280px;
+    background-position-x:;
+    background-size: 650px;
+}
+#quizbox6{
+    background-image: url("../images/owl-g0ac25efce_640.jpg");
+    background-size: 480px;
+    background-position-y: -45px;
+    background-position-x: 50px;
+}
+#quizbox7{
+    background-image: url("../images/african-american-gf2f191b3f_640.jpg");
+
+}
+#quizbox8{
+    background-image: url("../images/travel-g6a3c93330_640.jpg");
+}
+#quizbox9{
+    background-image: url("../images/question-mark-g79144f15a_640.jpg");
+    background-size: 300px;
+    background-position-x: -22px;
+}
+#quizbox10{
+    background-image: url("../images/How-music-and-sound-can-help-alleviate-career-anxiety_940x485.jpeg");
+    background-size: 400px;
+    background-position-x: 100px;
+}
+#quizbox11{
+    background-image: url("../images/spongebob.jpeg");
+}
+#quizbox12{
+    background-image: url("../images/boys-gaf7083ac8_640.jpg");
+    background-repeat: no-repeat;
+    background-size: 650px;
+    background-position-y: -100px;
+
+}
+
+
+#quizbox1:hover,#quizbox2:hover,#quizbox3:hover,#quizbox4:hover,#quizbox5:hover,#quizbox6:hover,#quizbox7:hover,#quizbox8:hover,#quizbox9:hover,#quizbox10:hover,#quizbox11:hover,#quizbox12:hover{
+    opacity: 70%;
+    border: 6px rgb(236, 199, 117) solid;
+
+}
+
+#brainimg{
+    border-radius: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid green
+}
+#href1{
+    
+    border-radius: 49px;
+    height: 219px;
+    font-size: 19pt;
+    color: aquamarine;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 800;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family:"DotGothic16" ;
+    
+}
+
+#href2{
+    border-radius: 49px;
+    height: 219px;
+    font-size: 20pt;
+    
+    color: aquamarine;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 800;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family:"DotGothic16" ;
+}
+#href3{
+    border-radius: 49px;
+    height: 219px;
+    font-size: 18pt;
+    color: aquamarine;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family:"DotGothic16" ;
+}
+
+
+#href1:hover{
+    font-size: 30pt;
+    font-weight: 900;
+}
+#href2:hover{
+    font-weight: 900;
+    font-size:25pt
+
+}
+#href3:hover{
+    font-weight: 900;
+    font-size:20.5pt
+
+}

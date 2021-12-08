@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  .App-logo {
+    position: relative;
+    bottom:60px;
+    left:16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 7s linear;
+      
+    }
+  }
+  
+  
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: matrix(1, 2, 3, 4, 5, 6);
+    }
+    to {
+      transform: matrix(1, 2, 3, 4, 5, 6);
+    }
+  }
+  
+  .Container-signin{
+    border: 1px black solid;
+    
+    background-color: black;
+    padding: 0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: 100vw;
+  }  
+  
+  
+  .sign-in-cont{
+    border:1px black solid;
+    width:800px;
+    height:500px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12%;
+    background-color: rgb(104, 104, 187);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .sign-in-cont {
+      animation: App-logo-spin  1s linear;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+  }
+  
+  
+  #appName{
+    position: relative;
+    bottom:20px;
+  }
+  #builtby{
+    color: rgb(208, 226, 43);
+    display: flex;
+    position: relative;
+    top:100px
+    
+  }
+  
+  #button-signin{
+    color:rgb(12, 57, 238);
+  }
+  :root{
+    --hue-neutral:960;
+    --hue-wrong:0;
+    --hue-correct:145;  
+
+}
+
+#bbutton-signin{
+  background-image: url(../images/btn_google_signin_dark_pressed_web.png);
+  background-repeat: no-repeat;
+  width: 195px;
+  height:50px ;
+  border-radius: 10px;
+  
+}
+
+#box22{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;  
+  border-radius: 100px;
+  border:1px green solid;
+  position: relative;
+  left:200px;
+}
+

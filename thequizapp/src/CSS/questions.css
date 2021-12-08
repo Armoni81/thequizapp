@@ -1,0 +1,312 @@
+.App-logo-questions {
+    position: relative;
+    bottom:60px;
+    left:16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo-questions {
+      animation: App-logo-spin infinite 10s linear;
+      
+    }
+  }
+  
+  #quizdisplay{
+    background-color: black;
+    padding: 0;
+    margin:0;
+    color:aquamarine;
+    border-style: solid;
+    border-width: 0.5px;
+    border-top-color:black;
+    border-left-color:aquamarine;
+    border-right-color:aquamarine;
+    border-bottom-color: aquamarine;
+    text-align: center;
+    font-family:"DotGothic16" ;
+    font-size: 25pt;
+    
+  
+  }
+  #quizdisplay2{
+    background-color: black;
+    padding: 0;
+    margin:0;
+    color:aquamarine;
+    
+    text-align: center;
+    font-family:"DotGothic16" ;
+    font-size: 25pt;
+  }
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+:root{
+    --hue-neutral:960;
+    --hue-wrong:0;
+    --hue-correct:145;  
+
+}
+ .quiz-cont{
+     border: 1px black solid;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding:0;
+     margin: 0;
+     width:100vw;
+     height:100vh;
+     background-color: black
+ }
+ 
+ 
+ #container-quest{
+    width:900px;
+    max-width:80%;
+    height: 340px;
+    background-color: white;
+    border-radius: 45px;
+    padding: 20px;
+    box-shadow: 0 0 10px 7px rgb(120, 108, 226);
+    
+    
+
+}
+
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap:10px;
+    margin:20px 0;
+    font-family: "TrainOne";
+    
+}
+.btn-grid2{
+  display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap:10px;
+    margin:20px 0;
+    font-family: "TrainOne";
+    font-size: 25pt;
+
+}
+.btn{
+    --hue: var(--hue-neutral);
+    border: 3px solid hsl(var(--hue),100%,30%);
+    background-color: hsl(var(--hue),10%,10%);
+    border-radius: 10px;
+    color:white;
+    outline: none;
+    border: black 1px solid;
+    font-family: 'Train One';
+    color: turquoise;
+}
+
+.btn:hover{
+    background-color: aqua;
+    
+    
+}
+
+.btn.correct{
+    background-color:green;
+}
+.btn.wrong{
+    background-color: red;
+}
+.next-btn, .submit-btn{
+    font-size: 13pt;
+    font-weight: bold;
+    padding:20px 80px;
+
+}
+.submit-btn:hover{
+    opacity: 90%;
+    background-color: rgb(104, 104, 187);
+    
+}
+.next-btn:hover{
+    opacity: 90%;
+    background-color: rgb(104, 104, 187);
+    color:
+}
+
+
+.controls-quest{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#hide{
+width:1200px;
+max-width:80%;
+height: 440px;
+background-color: white;
+border-radius: 45px;
+padding: 20px;
+box-shadow: 0 0 10px 7px rgb(120, 108, 226);
+font-size: 40pt;
+
+}
+#question{
+    font-family: 'Train One', cursive;
+    
+}
+
+#RESET{
+    width: 200px;
+    height: 200px;
+    background-color: turquoise;
+}
+
+#bigger{
+    border-radius: 10px;
+    background-color: rgb(104, 104, 187);
+    box-shadow: 0 0 5px 2px whitesmoke;
+    position: relative;
+    left:780px;
+    bottom:50px;
+    cursor:zoom-in;
+    
+}
+#bigger2{
+    border-radius: 10px;
+    background-color: rgb(104, 104, 187);
+    box-shadow: 0 0 5px 2px whitesmoke;
+    width:200px;
+    font-size: 20pt;
+    position: relative;
+    left:950px;
+    bottom:160px;
+    cursor: zoom-out;
+}
+#bigger:hover,#bigger2:hover{
+    opacity: 85%;
+    border:4px black solid;
+}
+#container-quest1{
+    
+}
+.positionscore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+.positionscore-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:150px
+}
+.percentagescore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px green solid;
+    position: relative;
+    bottom:160px
+
+}
+#tryAgainBtn{
+    border-radius: 25px;
+    font-size: 20pt;
+    border:black 2px solid;
+    position: relative;
+    bottom:125px;
+    left:345px;
+    text-align: center;
+    font-family: "Train One";
+    padding: 10px;
+}
+#tryAgainBtn:hover{
+    opacity: 70%;
+    border:aqua 2px solid;
+
+}
+.brainpic{
+    border-radius: 300px;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    bottom:240px;
+    left:50px;
+}
+.brainpic-1{
+    border-radius: 300px;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    bottom:240px;
+    left:300px
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .brainpic{
+      animation: App-logo-spin infinite 2.3s linear;
+      
+    }
+  }
+  
+  
+  
+  
+  @keyframes brainpic-spin {
+    from {
+      transform: matrix(1, 2, 3, 4, 5, 6);
+    }
+    to {
+      transform: matrix(1, 2, 3, 4, 5, 6);
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .brainpic-1 {
+      animation: App-logo-spin infinite 2.3s linear;
+      
+    }
+  }
+  
+  
+  
+  
+  @keyframes brainpic-1-spin {
+    from {
+      transform: matrix(1, 2, 3, 4, 5, 6);
+    }
+    to {
+      transform: matrix(1, 2, 3, 4, 5, 6);
+    }
+  }
+
+  #scoreboard{
+      background-color: rgb(104, 104, 187);
+      box-shadow:0 0 10px 1px rgb(120, 108, 226);
+      border-radius: 4px;
+      width: 20px;
+      font-size: larger
+  }
+  #scoreboard-1{
+    width: 70px;
+    border-radius: 12px;
+    box-shadow:0 0 10px 10px rgb(120, 108, 226);
+    background-color: rgb(104, 104, 187);
+
+  }

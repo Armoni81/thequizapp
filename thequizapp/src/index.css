@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "Libre Barcode 39 Text";
+  src: local("Libre Barcode 39 Text"),url("./fonts/LibreBarcode39Text-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family:"DotGothic16" ;
+  src: local("DotGothic16"),url("./fonts/DotGothic16-Regular.ttf") format("truetype")
+}
+@font-face {
+  font-family: "Train One";
+  src: local("Train One"),url("./fonts/TrainOne-Regular.ttf")format("truetype");
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
