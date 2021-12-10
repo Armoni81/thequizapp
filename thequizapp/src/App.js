@@ -4,8 +4,10 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
+  Link,
+  HashRouter,
 } from "react-router-dom";
+
 import SignIn from './Components/SignIn'
 import Questions from "./Components/Questions"
 import Home from "./Components/Home";
@@ -59,14 +61,7 @@ import General from "./Components/general";
               <Route path="/music" element = {<Music/>}/>
               <Route path="/spongebob" element = {<Spongebob/>}/>
               <Route path="/general" element = {<General/>}/>
-
-
- 
-
-
-            
             </Routes>
-          
         </Router>
       );
     }
